@@ -1,0 +1,53 @@
+#ignore target under current directory and all subdirectories:
+target/
+*/target/
+
+test-output/
+*/test-output/
+
+#ignore settings & gitignore file
+.settings/
+*/.settings/
+
+
+.springBeans
+*/.springBeans
+
+.project
+
+*/.project
+
+.classpath
+
+*/.classpath
+
+
+*.log
+*.log.zip
+.DS_Store
+*/.DS_Store
+
+
+*.iml
+.idea/*
+!.idea/runConfigurations/
+
+### Gradle template
+.gradle
+#gradlew
+#gradlew.bat
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+#gradle/wrapper/gradle-wrapper.properties
+
+*/out/
